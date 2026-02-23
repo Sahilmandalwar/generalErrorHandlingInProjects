@@ -18,4 +18,4 @@ export const sendEmail = async(options)=>{               //options contain recei
     }
 
     await transporter.sendMail(mailOptions);
-}             -- add in utils folder
+}             // add in utils folder
